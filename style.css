@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Overpass;
+}
+
+.cont{
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ratbox{
+    width: 300px;
+    height: 330px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 21px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.star{
+    height:40px;
+    width: 40px;
+    background-color: hsl(214, 19%, 26%);
+    border-radius: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head1{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.subhead1{
+    font-weight: 400;
+    color:  hsl(217, 12%, 63%);
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.numbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: hsl(214, 19%, 26%);
+    border-radius: 100%;
+    color:  hsl(217, 12%, 63%);
+
+}
+
+.num:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+
+.bahton{
+    background-color: hsl(25, 97%, 53%);
+    border: 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.bahton:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.congra{
+    width: 300px;
+    height: 330px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 0px 12px;
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tab{
+    height: 92px;
+    width: 130px;
+}
+
+.res{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(214, 19%, 26%);
+    width: 180px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13.5px;
+    height: 25px;
+    margin-top: 5px;
+    letter-spacing: 0.4px;
+}
+
+.head2{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    height: 30px;
+    padding-top: 12px;
+}
+
+.subhead2{
+    color: hsl(217, 12%, 63%);
+    font-size: 12px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <style>
+    .attribution { font-size: 7px; 
+      position: absolute;
+      left: 50%;
+      bottom: 0px;
+      transform: translate(-50%, -50%);
+      margin: 0 auto; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="cont">
+    <div class="ratbox" id="rat">
+      <div class="star"><img src="./images/icon-star.svg" alt="" class="star1"></div>
+      <div class="head1">How did we do?</div>
+      <div class="subhead1">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</div>
+      <div class="numbox">
+ 
+
+        <div onClick="displaycongra()" class="num" id="one">1</div>
+        <div onClick="displaycongra()" class="num" id="two">2</div>
+        <div onClick="displaycongra()" class="num" id="three">3</div>
+        <div onClick="displaycongra()" class="num" id="four">4</div>
+        <div onClick="displaycongra()" class="num" id="five">5</div>
+      </div>
+      <button onClick="sumb()" class="bahton">SUBMIT</button>
+    </div>
+
+    <div class="congra" id="con">
+      <div class="pic"><img src="./images/illustration-thank-you.svg" alt="" class="tab"></div>
+      <div class="res" id="res">You selected 4 out of 5</div>
+      <div class="head2">Thank you!</div>
+      <div class="subhead2">  We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</div>
+    </div>
+  </main>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
